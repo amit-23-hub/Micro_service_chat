@@ -1,0 +1,3 @@
+{"level":"info","message":"api gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-21T11:38:56.973Z"}
+{"level":"info","message":"identity service is ruuing on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-21T11:38:56.976Z"}
+{"level":"info","message":"identity service is ruuing on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-21T11:38:56.977Z"}
