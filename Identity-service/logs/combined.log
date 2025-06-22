@@ -61,3 +61,8 @@
 {"level":"info","message":"Request body: {\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"identity-service","timestamp":"2025-06-21T12:05:16.514Z"}
 {"level":"info","message":"login endpoints hit..","service":"identity-service","timestamp":"2025-06-21T12:05:16.519Z"}
 {"level":"error","message":"Error during user registration: user.varifyPassword is not a function","service":"identity-service","stack":"TypeError: user.varifyPassword is not a function\n    at loginUser (C:\\Users\\sahan\\OneDrive\\Desktop\\micro-project\\Identity-service\\src\\controllers\\identityController.js:107:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-21T12:05:16.627Z"}
+{"level":"info","message":"identity server running on port 3001","service":"identity-service","timestamp":"2025-06-21T12:08:49.796Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-06-21T12:08:51.087Z"}
+{"level":"info","message":" recieved POST request to  /api/auth/login","service":"identity-service","timestamp":"2025-06-21T12:08:56.622Z"}
+{"level":"info","message":"Request body: {\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"identity-service","timestamp":"2025-06-21T12:08:56.627Z"}
+{"level":"info","message":"login endpoints hit..","service":"identity-service","timestamp":"2025-06-21T12:08:56.633Z"}

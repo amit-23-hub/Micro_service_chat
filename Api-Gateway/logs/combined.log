@@ -1,3 +1,21 @@
 {"level":"info","message":"api gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-21T11:38:56.973Z"}
 {"level":"info","message":"identity service is ruuing on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-21T11:38:56.976Z"}
 {"level":"info","message":"identity service is ruuing on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-21T11:38:56.977Z"}
+{"level":"info","message":"api gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-21T11:42:41.728Z"}
+{"level":"info","message":"identity service is ruuing on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-21T11:42:41.732Z"}
+{"level":"info","message":"identity service is ruuing on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-21T11:42:41.733Z"}
+{"level":"info","message":" recieved POST request to  /v1/auth/register","service":"api-gateway","timestamp":"2025-06-21T11:43:09.566Z"}
+{"level":"info","message":"Request body: {\"username\":\"amitksskfs\",\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"api-gateway","timestamp":"2025-06-21T11:43:09.567Z"}
+{"level":"info","message":"response recived from identity service : 201","service":"api-gateway","timestamp":"2025-06-21T11:43:10.451Z"}
+{"level":"info","message":" recieved POST request to  /v1/auth/login","service":"api-gateway","timestamp":"2025-06-21T12:03:43.975Z"}
+{"level":"info","message":"Request body: {\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"api-gateway","timestamp":"2025-06-21T12:03:43.982Z"}
+{"level":"info","message":"response recived from identity service : 500","service":"api-gateway","timestamp":"2025-06-21T12:03:44.167Z"}
+{"level":"info","message":" recieved POST request to  /v1/auth/login","service":"api-gateway","timestamp":"2025-06-21T12:05:16.485Z"}
+{"level":"info","message":"Request body: {\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"api-gateway","timestamp":"2025-06-21T12:05:16.486Z"}
+{"level":"info","message":"response recived from identity service : 500","service":"api-gateway","timestamp":"2025-06-21T12:05:16.630Z"}
+{"level":"info","message":" recieved POST request to  /v1/auth/login","service":"api-gateway","timestamp":"2025-06-21T12:08:56.531Z"}
+{"level":"info","message":"Request body: {\"email\":\"aksskfs@gmail.com\",\"password\":\"amit@123\"}","service":"api-gateway","timestamp":"2025-06-21T12:08:56.570Z"}
+{"level":"info","message":"response recived from identity service : 200","service":"api-gateway","timestamp":"2025-06-21T12:08:57.114Z"}
+{"level":"info","message":"api gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-21T12:21:48.202Z"}
+{"level":"info","message":"identity service is ruuing on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-21T12:21:48.231Z"}
+{"level":"info","message":"identity service is ruuing on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-21T12:21:48.235Z"}
